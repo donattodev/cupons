@@ -8,8 +8,8 @@ import { Label } from '@/components/ui/label'
 import { Button } from '@/components/ui/button'
 
 export default function Home() {
-  const [cityWithSpaces, setCityWithSpaces] = useState('')
   const [cityForURL, setCityForURL] = useState('')
+  const [cityWithSpaces, setCityWithSpaces] = useState('')
 
   const handleLocationClick = () => {
     if (navigator.geolocation) {
