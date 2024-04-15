@@ -6,7 +6,7 @@ export type NavTypes = ComponentProps<'nav'> & {
 export function Nav({ children, ...props }: NavTypes) {
   return (
     <nav
-      className="flex h-[10vh] justify-between bg-neutral-200 px-28 dark:bg-neutral-900"
+      className="flex h-[10vh] justify-between bg-neutral-200 px-28 dark:bg-neutral-900 max-lg:px-6"
       {...props}
     >
       {children}
