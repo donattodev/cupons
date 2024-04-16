@@ -31,7 +31,11 @@ export default function Home() {
           )
             .then((response) => response.json())
             .then((data) => {
-              const cityName = data.locality
+              const cityName =
+                data.city ||
+                data.localAdminArea ||
+                data.adminArea ||
+                data.localityInfo.administrative[3].name
               setCityWithSpaces(cityName)
               setCityForURL(normalizeCityName(cityName))
             })

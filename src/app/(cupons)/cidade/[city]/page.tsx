@@ -70,7 +70,7 @@ export default function CuponsCity({ params }: CityParams) {
           </div>
         ))}
 
-        <div className="col-span-3 flex items-center justify-between rounded-md border border-zinc-400 px-4 dark:border-zinc-800">
+        <div className="col-span-3 flex items-center justify-between rounded-md border px-4 max-sm:flex-col max-sm:items-start">
           <div className="col-span-1 py-3 text-xs font-semibold text-zinc-900 dark:text-zinc-400">
             Mostrando {Math.min(filteredCupons.length, 12)} de{' '}
             {filteredCupons.length}
