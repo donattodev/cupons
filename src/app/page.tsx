@@ -52,7 +52,7 @@ export default function Home() {
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-6xl items-center justify-center px-6 max-sm:flex-col">
-      <div className="flex w-full flex-col items-center justify-center gap-8 rounded-lg bg-neutral-900 py-56 max-sm:py-16">
+      <div className="flex w-full flex-col items-center justify-center gap-8 rounded-lg bg-neutral-300 py-56 dark:bg-neutral-900 max-sm:py-16">
         <div>
           <div className="mb-4 flex flex-col items-center gap-2">
             <Logo className="w-10" />
